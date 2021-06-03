@@ -67,8 +67,8 @@ export default function HomePage() {
         </div>
 
         {/* Header */}
-        <div className=" flex flex-row justify-center content-center items-center space-x-24">
-          <div className="px-8 py-2 rounded-md shadow-sm  flex flex-row content-center items-center ">
+        <div className=" flex flex-row justify-center content-center items-center space-x-14 mt-14">
+          <div className="px-8 py-2 rounded-md shadow-sm  flex flex-row content-center items-center cursor-pointer ">
             <div>
               <SwitchVerticalIcon className="h-10 w-10 space-x-2 text-red-500 bg-red-300 rounded-full p-2  shadow-xl " />
             </div>
@@ -78,7 +78,7 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <div className="px-8 py-2 shadow-sm rounded-md flex flex-row items-center content-center">
+          <div className="px-8 py-2 shadow-sm rounded-md flex flex-row items-center content-center cursor-pointer">
             <div>
               <TruckIcon className="h-10 w-10 mr-1 text-blue-500 space-x-4 rounded-full bg-blue-300 p-2 shadow-xl" />
             </div>
@@ -88,7 +88,7 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <div className="px-8 py-2 space-x-2 shadow-sm rounded-md flex flex-row items-center content-center">
+          <div className="px-8 py-2 space-x-2 shadow-sm rounded-md flex flex-row items-center content-center cursor-pointer">
             <div>
               <CashIcon className="h-10 w-10  text-green-500 bg-green-300 rounded-full p-2 shadow-xl " />
             </div>
@@ -98,7 +98,7 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <div className="px-8 py-2 shadow-sm rounded-md flex flex-row items-center content-center space-x-2">
+          <div className="px-8 py-2 shadow-sm rounded-md flex flex-row items-center content-center space-x-2 cursor-pointer">
             <div>
               <GiftIcon className="h-10 w-10 text-yellow-500 rounded-full bg-yellow-300 p-2 shadow-xl" />
             </div>
