@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation";
 import HomePage from "../components/HomePage";
+import FooterPage from "../components/FooterPage";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Navigation />
       <HomePage />
+      <FooterPage/>
     </>
   );
 }

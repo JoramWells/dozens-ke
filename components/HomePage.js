@@ -139,8 +139,15 @@ export default function HomePage() {
             width: "85%",
           }}
         >
+          <div className="p-1">
+            <p className="text-lg font-semibold text-gray-600">Recent Items</p>
+          </div>
           <Carousel responsive={responsive}>
             <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+              <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
               <Image
                 src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
                 height="160"
@@ -156,6 +163,10 @@ export default function HomePage() {
               </div>
             </figure>
             <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+            <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
               <Image
                 src="https://images.unsplash.com/photo-1508125673219-7cec6bc90159?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80"
                 height="160"
@@ -171,8 +182,12 @@ export default function HomePage() {
               </div>
             </figure>
             <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+            <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
               <Image
-                src="https://images.unsplash.com/photo-1618329254028-833d820b7f86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+                src="https://images.unsplash.com/photo-1596568359553-a56de6970068?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80"
                 height="160"
                 width="250"
                 alt="Sneakers image"
@@ -186,6 +201,10 @@ export default function HomePage() {
               </div>
             </figure>
             <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+            <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
               <Image
                 src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=758&q=80"
                 height="160"
