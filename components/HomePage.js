@@ -81,6 +81,7 @@ export default function HomePage() {
               height="250"
               width="400"
               alt="Sneakers image"
+
               className="rounded-md"
             />
           </div>
@@ -88,8 +89,8 @@ export default function HomePage() {
         </div>
 
         {/* Header */}
-        <div className=" flex flex-row justify-center content-center items-center space-x-14 mt-14 mb-14">
-          <div className="px-8 py-2 rounded-md shadow-sm bg-white flex flex-row content-center items-center cursor-pointer ">
+        <div className=" flex flex-row justify-center content-center items-center space-x-14 ">
+          <div className="px-8 py-2 rounded-md shadow-sm bg-white flex flex-row  mt-14 mb-14 content-center items-center cursor-pointer ">
             <div>
               <SwitchVerticalIcon className="h-10 w-10 space-x-2 text-red-500 bg-red-300 rounded-full p-2  shadow-xl " />
             </div>
@@ -130,10 +131,12 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+
+        {/* Shoes */}
+        <div className={{margin:"1rem"}}>
         <div
-          className="mt-8 bg-white p-2 rounded-md"
+          className=" bg-white p-2 rounded-md"
           style={{
-            height: "400px",
             margin: "auto",
             display: "block",
             width: "85%",
@@ -220,6 +223,121 @@ export default function HomePage() {
               </div>
             </figure>
           </Carousel>
+        </div>
+        </div>
+
+
+        {/* Gadgets */}
+        <div style={{marginTop:"1rem"}}>
+        <div
+          className=" bg-white p-2 rounded-md"
+          style={{
+            margin: "auto",
+            display: "block",
+            width: "85%",
+          }}
+        >
+          <div className="p-1">
+            <p className="text-lg font-semibold text-gray-600">Top Selling</p>
+          </div>
+          <Carousel responsive={responsive}>
+            <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+              <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
+              <Image
+                src="https://images.unsplash.com/photo-1595303526913-c7037797ebe7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=801&q=80"
+                height="160"
+                width="250"
+                alt="Sneakers image"
+              />
+              <div className="p-2">
+                <blockquote>
+                  <p className="text-gray-400 text-md">Nick Air</p>
+                  <p className="font-semibold text-gray-500">Ksh 2,341 /=</p>
+                  <p className="line-through text-gray-300">Ksh 3,457</p>
+                </blockquote>
+              </div>
+            </figure>
+            <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+            <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
+              <Image
+                src="https://images.unsplash.com/photo-1515940175183-6798529cb860?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=887&q=80"
+                height="160"
+                width="250"
+                alt="Sneakers image"
+              />
+              <div className="p-2">
+                <blockquote>
+                  <p className="text-gray-400 text-md">Nick Air</p>
+                  <p className="font-semibold text-gray-500">Ksh 2,341 /=</p>
+                  <p className="line-through text-gray-300">Ksh 3,457</p>
+                </blockquote>
+              </div>
+            </figure>
+            <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+            <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
+              <Image
+                src="https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                height="160"
+                width="250"
+                alt="Sneakers image"
+              />
+              <div className="p-2">
+                <blockquote>
+                  <p className="text-gray-400 text-md">Nick Air</p>
+                  <p className="font-semibold text-gray-500">Ksh 2,341 /=</p>
+                  <p className="line-through text-gray-300">Ksh 3,457</p>
+                </blockquote>
+              </div>
+            </figure>
+            <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+            <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
+              <Image
+                src="https://images.unsplash.com/photo-1574678720375-897c87118486?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=890&q=80"
+                height="160"
+                width="250"
+                alt="Sneakers image"
+              />
+              <div className="p-2">
+                <blockquote>
+                  <p className="text-gray-400 text-md">Nick Air</p>
+                  <p className="font-semibold text-gray-500">Ksh 2,341 /=</p>
+                  <p className="line-through text-gray-300">Ksh 3,457</p>
+                </blockquote>
+              </div>
+            </figure>
+            <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+            <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
+                <p className="font-semibold text-sm text-white">-20%</p>
+
+              </div>
+              <Image
+                src="https://images.unsplash.com/photo-1495269652876-12a814403455?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"
+                height="160"
+                width="250"
+                alt="Sneakers image"
+              />
+              <div className="p-2">
+                <blockquote>
+                  <p className="text-gray-400 text-md">Nick Air</p>
+                  <p className="font-semibold text-gray-500">Ksh 2,341 /=</p>
+                  <p className="line-through text-gray-300">Ksh 3,457</p>
+                </blockquote>
+              </div>
+            </figure>
+          </Carousel>
+        </div>
         </div>
       </main>
     </>
