@@ -44,7 +44,7 @@ export default function HomePage() {
         <title>HomePage | Dozens Kenya</title>
       </Head>
       <main className="p-8 bg-gray-50">
-        <div className="flex flex-row space-x-8 justify-center content-center items-center">
+        <div className="flex flex-row space-x-8 justify-center content-center items-center" style={{marginTop:"8rem"}}>
           <div className="ring-1 ring-gray-100 rounded-md p-2 bg-white">
             <ul className="text-xs text-gray-500 leading-8 items-center content-center">
               <li className="flex flex-row space-x-2">

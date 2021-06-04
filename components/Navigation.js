@@ -2,8 +2,7 @@ import React from 'react'
 
 export default function Navigation() {
     return (
-        <div className="shadow-3xl">
-            <nav className="flex flex-row  justify-between p-4 content-center items-center">
+            <nav className="flex flex-row  justify-between p-4 shadow-lg fixed z-10 content-center items-center w-full bg-white">
                 <div className="">
                     Home
                 </div>
@@ -14,6 +13,5 @@ export default function Navigation() {
                     Register
                 </div>
             </nav>
-        </div>
     )
 }
