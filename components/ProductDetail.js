@@ -1,9 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import Head from 'next/head'
 import { ShoppingBagIcon } from "@heroicons/react/solid";
 
 export default function ProductDetail() {
   return (
+    <>
+    <Head>
+      <title>Product | Shoes, Clothings. Wearables</title>
+    </Head>
     <main className="bg-gray-50 p-8">
       <div style={{ width: "85%", marginTop: "5rem" }}>
         <div className="flex-row flex justify-between space-x-8">
@@ -28,7 +33,7 @@ export default function ProductDetail() {
               <p className="text-sm">(123) ratings</p>
               <p className="text-lg font-extrabold text-gray-600">Ksh 2,345 /=</p>
               <p className="text-sm line-through text-gray-400">Ksh 2,345 /=</p>
-              <div className="bg-gray-800 p-1 bg-opacity-75 flex flex-row justify-center items-center space-x-2 rounded-md mt-1 hover:shadow-3xl hover:cursor-pointer">
+              <div className="bg-gray-800 p-1 bg-opacity-75 flex divide-y-2 divide-gray-500 flex-row justify-center items-center space-x-2 rounded-md mt-1 hover:shadow-3xl hover:cursor-pointer">
                 <ShoppingBagIcon className="h-5 text-white" />
                 <button className="text-white block p-1 focus:outline-none ">ADD TO CART</button>
               </div>
@@ -40,5 +45,6 @@ export default function ProductDetail() {
         </div>
       </div>
     </main>
+    </>
   );
 }
