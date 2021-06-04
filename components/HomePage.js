@@ -16,6 +16,7 @@ import {
   ShoppingBagIcon,
 } from "@heroicons/react/outline";
 import Carousel from "react-multi-carousel";
+import Link from 'next/link'
 
 const responsive = {
   superLargeDesktop: {
@@ -147,7 +148,7 @@ export default function HomePage() {
             <p className="text-lg font-semibold text-gray-600">Recent Items</p>
           </div>
           <Carousel responsive={responsive}>
-            <figure className="p-0  m-1 hover:shadow-md cursor-pointer ">
+            <figure className="p-0  m-1 hover:shadow-md ">
               <div className="absolute bg-black bg-opacity-10 p-1 rounded-bl-md" style={{ right:"4px", zIndex:"1"}}>
                 <p className="font-semibold text-sm text-white">-20%</p>
 
@@ -161,7 +162,7 @@ export default function HomePage() {
               />
               <div className="p-2">
                 <blockquote>
-                  <p className="text-gray-400 text-md">Nick Air</p>
+                  <Link href="/detail" className="text-gray-400 text-md">Nick Air</Link>
                   <p className="font-semibold text-gray-500">Ksh 2,341 /=</p>
                   <p className="line-through text-gray-300">Ksh 3,457</p>
                 </blockquote>
