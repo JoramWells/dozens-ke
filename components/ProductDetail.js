@@ -51,6 +51,18 @@ export default function ProductDetail() {
             <LocationMarkerIcon className="h-5 text-gray-400" />
             <p className="text-gray-500 text-sm">Location</p>
             </div>
+            <div>
+              <select className="focus:outline-none text-gray-600 font-semibold hover:bg-gray-500">
+                <option className="focus:bg-gray-500 hover:text-gray-500">Nairobi</option>
+                <option>Kitale</option>
+                <option>Embu</option>
+                <option>Thika</option>
+                <option>Naivasha</option>
+                <option>Nakuru</option>
+                <option>Mombasa</option>
+
+              </select>
+            </div>
 
           </div>
         </div>
