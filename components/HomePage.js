@@ -44,7 +44,7 @@ export default function HomePage() {
         <title>HomePage | Dozens Kenya</title>
       </Head>
       <main className="p-8 bg-gray-50">
-        <div className="flex flex-row space-x-8 justify-center content-center items-center" style={{marginTop:"8rem"}}>
+        <div className="flex flex-row space-x-8 justify-center content-center items-center" style={{marginTop:"6rem"}}>
           <div className="ring-1 ring-gray-100 rounded-md p-2 bg-white">
             <ul className="text-xs text-gray-500 leading-8 items-center content-center">
               <li className="flex flex-row space-x-2">
@@ -78,6 +78,7 @@ export default function HomePage() {
           <div>
             <Image
               src="https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+
               height="250"
               width="400"
               alt="Sneakers image"
@@ -156,6 +157,7 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
               />
               <div className="p-2">
                 <blockquote>
@@ -175,6 +177,8 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
+
               />
               <div className="p-2">
                 <blockquote>
@@ -194,6 +198,8 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
+
               />
               <div className="p-2">
                 <blockquote>
@@ -213,6 +219,8 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
+
               />
               <div className="p-2">
                 <blockquote>
@@ -251,6 +259,8 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
+
               />
               <div className="p-2">
                 <blockquote>
@@ -270,6 +280,8 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
+
               />
               <div className="p-2">
                 <blockquote>
@@ -289,6 +301,8 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
+
               />
               <div className="p-2">
                 <blockquote>
@@ -308,6 +322,8 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
+
               />
               <div className="p-2">
                 <blockquote>
@@ -327,6 +343,8 @@ export default function HomePage() {
                 height="160"
                 width="250"
                 alt="Sneakers image"
+                className="p-0 m-0"
+
               />
               <div className="p-2">
                 <blockquote>
