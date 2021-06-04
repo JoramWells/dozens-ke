@@ -48,9 +48,10 @@ export default function ProductDetail() {
             </div>
             <div
               style={{ height: "200px" }}
-              className="bg-white w-1/2 flex flex-col p-4"
+              className=" w-1/2 flex flex-col"
             >
-              <div>DELIVERY & RETURNS</div>
+              <div className="bg-white p-4 rounded-md">
+              <p className="font-semibold text-gray-600">DELIVERY & RETURNS</p>
               <div className="divide-y  divide-gray-500"></div>
               <div className="flex-row flex items-center">
                 <LocationMarkerIcon className="h-5 text-gray-400" />
@@ -67,6 +68,9 @@ export default function ProductDetail() {
                   <option>Mombasa</option>
                 </select>
               </div>
+              </div>
+              <div className="p-4 bg-white rounded-md" style={{marginTop:"1rem"}}>Another div</div>
+
             </div>
           </div>
         </div>
