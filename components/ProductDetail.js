@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Head from 'next/head'
-import { ShoppingBagIcon } from "@heroicons/react/solid";
+import { LocationMarkerIcon, ShoppingBagIcon } from "@heroicons/react/solid";
 
 export default function ProductDetail() {
   return (
@@ -33,14 +33,25 @@ export default function ProductDetail() {
               <p className="text-sm">(123) ratings</p>
               <p className="text-lg font-extrabold text-gray-600">Ksh 2,345 /=</p>
               <p className="text-sm line-through text-gray-400">Ksh 2,345 /=</p>
-              <div className="bg-gray-800 p-1 bg-opacity-75 flex divide-y-2 divide-gray-500 flex-row justify-center items-center space-x-2 rounded-md mt-1 hover:shadow-3xl hover:cursor-pointer">
+              <div className="divide-y-2 divide-gray-700">
+                
+              </div>
+              <div className="bg-gray-800 p-1 bg-opacity-75 flex  flex-row justify-center items-center space-x-2 rounded-md mt-1 hover:shadow-3xl hover:cursor-pointer">
                 <ShoppingBagIcon className="h-5 text-white" />
                 <button className="text-white block p-1 focus:outline-none ">ADD TO CART</button>
               </div>
             </div>
           </div>
-          <div style={{ height: "200px" }} className="bg-white w-1/2">
-            details
+          <div style={{ height: "200px" }} className="bg-white w-1/2 flex flex-col p-4">
+            <div>
+              DELIVERY & RETURNS
+            </div>
+            <div className="divide-y  divide-gray-500"></div>
+            <div className="flex-row flex items-center">
+            <LocationMarkerIcon className="h-5 text-gray-400" />
+            <p className="text-gray-500 text-sm">Location</p>
+            </div>
+
           </div>
         </div>
       </div>
