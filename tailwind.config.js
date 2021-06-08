@@ -6,7 +6,12 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      inset:{
+        '-100': '-100%',
+      },
+      backgroundColor: ['active'],
+    },
   },
   plugins: [],
 }
