@@ -1,13 +1,15 @@
-import Navigation from "../components/Navigation";
-import HomePage from "../components/HomePage";
-import FooterPage from "../components/FooterPage";
+import React from 'react'
+import HomePage1 from '../components/HomePage1'
+import Navigation from '../components/Navigation'
 
-export default function Home() {
-  return (
-    <>
-      <Navigation activateOption />
-      <HomePage />
-      <FooterPage />
-    </>
-  );
+function index() {
+    return (
+        <>
+        <Navigation activateOption />
+        <HomePage1 />
+            
+        </>
+    )
 }
+
+export default index
