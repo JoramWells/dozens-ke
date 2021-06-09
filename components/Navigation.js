@@ -15,7 +15,7 @@ export default function Navigation({ activateOption }) {
 
   return (
     <>
-      <nav className="flex flex-row  justify-between p-2 shadow-md fixed z-10 content-center items-center w-full bg-white">
+      <nav className="flex flex-row  justify-between p-2 border-b-2 border-gray-100 fixed z-10 content-center items-center w-full bg-white">
         <div className="flex flex-row items-center content-center space-x-2">
           <div className="hover:cursor-pointer rounded-full active:bg-opacity-20 active:bg-black ">
             <MenuIcon
@@ -55,7 +55,7 @@ export default function Navigation({ activateOption }) {
           className={sidebar ? "nav-menu active" : "nav-menu"}
         >
           <ul className="leading-8">
-            <li className="hover:bg-gray-100 hover:cursor-pointer ">
+            <li className="hover:bg-gray-100 hover:cursor-pointer mb-2">
               <div className="flex flex-row items-center justify-start p-2 space-x-2 text-white hover:text-gray-700">
                 <HomeIcon className="h-5 ml-3" />
                 <p className=" text-sm text-gray-300 hover:text-gray-700 hover:font-bold">

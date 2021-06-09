@@ -1,12 +1,14 @@
 import React from 'react'
-import HomePage1 from '../components/HomePage1'
+import FooterPage from '../components/FooterPage'
+import HomePage from '../components/HomePage'
 import Navigation from '../components/Navigation'
 
 function index() {
     return (
         <>
         <Navigation activateOption />
-        <HomePage1 />
+        <HomePage />
+        <FooterPage/>
             
         </>
     )
