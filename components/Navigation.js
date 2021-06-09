@@ -25,7 +25,7 @@ export default function Navigation({ activateOption }) {
           </div>
           <Link href="/">Home</Link>
         </div>
-        <div className="flex flex-row bg-black bg-opacity-10 p-1 md:w-full justify-center items-center content-center rounded-full">
+        <div className="flex flex-row bg-black bg-opacity-10 p-1 justify-center items-center content-center rounded-full">
           <div>
             <SearchIcon className="h-5 text-gray-500 m-1" />
           </div>
