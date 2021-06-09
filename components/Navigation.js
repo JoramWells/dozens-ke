@@ -25,7 +25,7 @@ export default function Navigation({ activateOption }) {
           </div>
           <Link href="/">Home</Link>
         </div>
-        <div className="flex flex-row bg-black bg-opacity-10 p-1 justify-center items-center content-center rounded-full">
+        <div className="flex flex-row bg-black bg-opacity-10 p-1 md:w-full justify-center items-center content-center rounded-full">
           <div>
             <SearchIcon className="h-5 text-gray-500 m-1" />
           </div>
@@ -45,7 +45,7 @@ export default function Navigation({ activateOption }) {
           style={{
             paddingTop: "3.77rem",
             width: "15%",
-            height: "100vh",
+            height: "100%",
             backgroundColor: "black",
             display: "fixed",
             color: "white",
@@ -58,7 +58,7 @@ export default function Navigation({ activateOption }) {
             <li className="hover:bg-gray-100 hover:cursor-pointer mb-2">
               <div className="flex flex-row items-center justify-start p-2 space-x-2 text-white hover:text-gray-700">
                 <HomeIcon className="h-5 ml-3" />
-                <p className=" text-sm text-gray-300 hover:text-gray-700 hover:font-bold">
+                <p className=" text-sm text-gray-300 hover:text-gray-700 hover:font-bold md:text-red-200">
                   Home
                 </p>
               </div>

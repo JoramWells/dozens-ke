@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import {
-  CashIcon,
-  GiftIcon,
-  SwitchVerticalIcon,
-  TruckIcon,
-} from "@heroicons/react/solid";
 import Carousel from "react-multi-carousel";
 import Link from "next/link";
 
@@ -38,70 +32,41 @@ export default function HomePage() {
         <title>HomePage | Dozens Kenya</title>
       </Head>
       <main>
-        <div style={{width:"75%", display:"block",margin:"auto"}}>
-        <div style={{ marginTop: "4rem" }}>
-        <div  className="bg-white flex flex-row justify-center space-x-8 p-2 border-b-2 border-gray-100">
-        <div className="bg-gray-300 py-1 px-2 ring-1 ring-gray-300  rounded-full  text-xs text-gray-700">Shoes</div>
-        
-        <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">Skirts</div>
-        <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">Dress</div>
-        <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">Top</div>
-        <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">Sandals</div>
-        <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">Dera</div>
-        <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">Outfit</div>
-        <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">Palazo</div>
+        <div style={{display: "block", margin: "auto" }}>
+          <div style={{ marginTop: "4rem" }}>
+            <div className="bg-white flex flex-row justify-center space-x-8 p-2 border-b-2 border-gray-100">
+              <div className="bg-gray-300 py-1 px-2 ring-1 ring-gray-300  rounded-full  text-xs text-gray-700">
+                Shoes
+              </div>
 
+              <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">
+                Skirts
+              </div>
+              <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">
+                Dress
+              </div>
+              <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">
+                Top
+              </div>
+              <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">
+                Sandals
+              </div>
+              <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">
+                Dera
+              </div>
+              <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">
+                Outfit
+              </div>
+              <div className="bg-gray-200 py-1 px-2 ring-1 ring-gray-300  rounded-full text-xs text-gray-700">
+                Palazo
+              </div>
+            </div>
           </div>
         </div>
-        </div>
-
 
         <div className="p-8 bg-gray-50">
-
-
           {/* Header */}
-          <div className=" flex flex-row justify-center content-center items-center space-x-14 ">
-            <div className="px-8 py-2 rounded-md shadow-sm bg-white flex flex-row  mt-14 mb-14 content-center items-center cursor-pointer ">
-              <div>
-                <SwitchVerticalIcon className="h-10 w-10 space-x-2 text-red-500 bg-red-300 rounded-full p-2  shadow-xl " />
-              </div>
-              <div className="p-1">
-                <p className="font-semibold text-gray-500 text-center">
-                  7 days return
-                </p>
-              </div>
-            </div>
-            <div className="px-8 py-2 shadow-sm rounded-md flex bg-white flex-row items-center content-center cursor-pointer">
-              <div>
-                <TruckIcon className="h-10 w-10 mr-1 text-blue-500 space-x-4 rounded-full bg-blue-300 p-2 shadow-xl" />
-              </div>
-              <div>
-                <p className="font-semibold  text-gray-600 text-center">
-                  Supply Items
-                </p>
-              </div>
-            </div>
-            <div className="px-8 bg-white py-2 space-x-2 shadow-sm rounded-md flex flex-row items-center content-center cursor-pointer">
-              <div>
-                <CashIcon className="h-10 w-10  text-green-500 bg-green-300 rounded-full p-2 shadow-xl " />
-              </div>
-              <div>
-                <p className="font-semibold  text-gray-600 text-center">
-                  Paybill
-                </p>
-              </div>
-            </div>
-            <div className="px-8 py-2 bg-white shadow-sm rounded-md flex flex-row items-center content-center space-x-2 cursor-pointer">
-              <div>
-                <GiftIcon className="h-10 w-10 text-yellow-500 rounded-full bg-yellow-300 p-2 shadow-xl" />
-              </div>
-              <div>
-                <p className="font-semibold  text-gray-600 text-center">
-                  New Products
-                </p>
-              </div>
-            </div>
-          </div>
+
 
           {/* Shoes */}
           <div className={{ margin: "1rem" }}>
